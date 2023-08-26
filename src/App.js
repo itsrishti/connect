@@ -14,14 +14,14 @@ function App() {
                 <div className="col-lg-4">
                     <div className="card">
                         <div className="card-body">
-                            <div class="d-flex flex-column align-items-center text-center">
-                                <img src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="Admin" class="rounded-circle p-1 bg-primary" width="110"/>
-                                <div class="mt-3">
+                            <div className="d-flex flex-column align-items-center text-center">
+                                <img src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="Admin" className="rounded-circle p-1 bg-primary" width="110"/>
+                                <div className="mt-3">
                                     <h4>John Doe</h4>
-                                    <p class="text-secondary mb-1">Full Stack Developer</p>
-                                    <p class="text-muted font-size-sm">Bay Area, San Francisco, CA</p>
-                                    <button class="btn btn-primary">Follow</button>
-                                    <button class="btn btn-outline-primary">Message</button>
+                                    <p className="text-secondary mb-1">Full Stack Developer</p>
+                                    <p className="text-muted font-size-sm">Bay Area, San Francisco, CA</p>
+                                    <button className="btn btn-primary">Follow</button>
+                                    <button className="btn btn-outline-primary">Message</button>
                                 </div>
                             </div>
                             <hr className="my-4"/>
@@ -107,24 +107,24 @@ function App() {
                                 <div className="card-body">
                                     <h5 className="d-flex align-items-center mb-3">Project Status</h5>
                                     <p>Web Design</p>
-                                    <div className="progress mb-3" style="height: 5px">
+                                    <div className="progress mb-3" style={{height: '5px'}}>
                                         <div className="progress-bar bg-primary" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                     <p>Website Markup</p>
-                                    <div className="progress mb-3" style="height: 5px">
+                                    <div className="progress mb-3" style={{height: '5px'}}>
                                         <div className="progress-bar bg-danger" role="progressbar" style="width: 72%" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                     <p>One Page</p>
-                                    <div className="progress mb-3" style="height: 5px">
-                                        <div className="progress-bar bg-success" role="progressbar" style="width: 89%" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div className="progress mb-3" style={{height: '5px'}}>
+                                        <div className="progress-bar bg-success" role="progressbar" style={{width:' 89%'}} aria-valuenow="89" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                     <p>Mobile Template</p>
-                                    <div className="progress mb-3" style="height: 5px">
-                                        <div className="progress-bar bg-warning" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div className="progress mb-3" style={{height: '5px'}}>
+                                        <div className="progress-bar bg-warning" role="progressbar" style={{width: '55%'}} aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                     <p>Backend API</p>
-                                    <div className="progress" style="height: 5px">
-                                        <div className="progress-bar bg-info" role="progressbar" style="width: 66%" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div className="progress" style={{height: '5px'}}>
+                                        <div className="progress-bar bg-info" role="progressbar" style={{width:' 66%'}} aria-valuenow="66" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                 </div>
                             </div>
